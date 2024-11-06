@@ -1,0 +1,57 @@
+.progressbar{
+  width: 500px;
+  background: #c5c5c5;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progressbarInner{
+  background: #0d6efd;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  label {
+    color: white;
+  }
+}
+.progressbar--moving{
+  width: 500px;
+  background: #c5c5c5;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 20px;
+}
+
+
+.filled{
+  transform: scaleX(1);
+}
+.bar {
+  background-color: #ccc;
+  height: 8px;
+  width: 500px;
+}
+
+.bar-contents {
+  background-color: green;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition-duration: 2000ms;
+  transition-property: transform;
+  transition-timing-function: linear;
+}
+.content{
+  transform: scaleX(0);
+  transform-origin: left;
+  transition-duration: 2000ms;
+  transition-property: transform;
+  transition-timing-function: linear;
+  height: 100%;
+  background-color: green;
+
+}
+.bar-contents--filled {
+  transform: scaleX(1);
+}

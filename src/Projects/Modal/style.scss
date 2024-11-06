@@ -1,0 +1,27 @@
+.modal-content{
+
+}
+.modal-overlay{
+  background-color: rgba(0, 0, 0, 0.7);
+  inset: 0;
+  position: fixed;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  background-color: white;
+  padding: 24px;
+  min-width: 500px;
+  max-width: 500px;
+}
+.modal-button-wrapper{
+  margin-top: auto;
+}

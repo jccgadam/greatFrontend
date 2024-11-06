@@ -1,0 +1,29 @@
+.auth-code-input-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+.auth-code-input-wrapper .auth-code-input-container .authCodeInput {
+  width: 48px;
+  height: 48px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  overflow: hidden;
+  background: #eee;
+  outline: none;
+  margin: 5px;
+  border: unset;
+}
+.auth-code-input-wrapper .auth-code-input-container .authCodeInput:focus {
+  outline: black solid 2px;
+}
+.auth-code-input-wrapper .auth-code-input-container .authCodeInput::selection {
+  background: black;
+  color: white;
+}
+.auth-code-input-wrapper .auth-code-button-container button {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
