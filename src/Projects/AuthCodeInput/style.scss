@@ -1,6 +1,9 @@
 .auth-code-input-wrapper{
-  text-align: center;
-  margin-top: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   .auth-code-input-container{
   .authCodeInput{
     width: 48px;
@@ -26,6 +29,34 @@
   .auth-code-button-container{
     button{
       margin: 10px;
+    }
+    .reset-button{
+      padding: 5px 15px;
+      font-size: 18px;
+      font-weight: 400;
+      color: black;
+      background-color: white;
+      outline: none;
+      border:2px solid black;
+      cursor: pointer;
+    }
+    .reset-button:disabled{
+      opacity: .25;
+      cursor: not-allowed;
+    }
+    .submit-button {
+      padding: 5px 15px;
+      font-size: 18px;
+      font-weight: 400;
+      color: white;
+      outline: none;
+      background-color: #000;
+      border:2px solid black;
+      cursor: pointer;
+    }
+    .submit-button:disabled{
+      opacity: .25;
+      cursor: not-allowed;
     }
   }
 }

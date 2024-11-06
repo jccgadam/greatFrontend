@@ -35,6 +35,7 @@ export const AuthCodeInputItemComponent = (props: IAuthCodeInputItemProps) => {
         }
         else if(e.key==='Backspace'){
             onChange(index,'');
+            props.setFocusedIndex(focusedIndex-1);
         }
 
     }

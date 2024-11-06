@@ -45,12 +45,13 @@ export const AuthCodeInputComponent = (props: IAuthCodeInputComponentProps) => {
             alert(error);
         }
     },[success,error])
-    const resetButton = <button onClick={() => {
+    const disableRestButton = inputCode.size==0 || isLoading;
+    const resetButton = <button className='reset-button' disabled={disableRestButton} onClick={() => {
         setInputCode(initialState.inputCode);
         setFocusedIndex(initialState.focusedIndex);
     }}>Reset</button>
     const disabledSubmitBtn = inputCode.size < size || isLoading;
-    const submitButton = <button disabled={disabledSubmitBtn} onClick={() => {
+    const submitButton = <button className='submit-button' disabled={disabledSubmitBtn} onClick={() => {
         void submitForm({
             otp: Array.from(inputCode.values()).join('')
         })
