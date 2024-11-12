@@ -1,5 +1,6 @@
 import ProgressBarComponent  from './ProgressBarComponent';
-
+import {ProgressBarIVSolutionComponent} from "./ProgressBarIVSolutionComponent";
 export {
-    ProgressBarComponent
+    ProgressBarComponent,
+    ProgressBarIVSolutionComponent
 }

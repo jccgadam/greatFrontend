@@ -8,7 +8,8 @@ import {
     HolyGrailComponent,
     AccordionPage,
     ContactFormComponent,
-    AuthCodeInputPage
+    AuthCodeInputPage,
+
 } from './Projects';
 import React from 'react';
 
