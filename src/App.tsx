@@ -9,9 +9,10 @@ import {
     AccordionPage,
     ContactFormComponent,
     AuthCodeInputPage,
-
+    DataTablePage
 } from './Projects';
 import React from 'react';
+import {AuthCodeInputItemComponent} from "./Projects/AuthCodeInput/AuthCodeInputItemComponent";
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
                 <Route path='/AccordionPage' element={<AccordionPage/>}/>
                 <Route path='/ContactForm' element={<ContactFormComponent/>}/>
                 <Route path='/authCodeInput' element={<AuthCodeInputPage/>}/>
+                <Route path='/dataTablePage' element={<DataTablePage/>}/>
             </Routes>
         </div>
     );

@@ -6,7 +6,7 @@ import {HolyGrailComponent} from './HolyGrail/HolyGrailComponent';
 import {AccordionPage} from './Accordion/AccordionPage';
 import {ContactFormComponent} from './ContactForm/ContactFormComponent';
 import {AuthCodeInputPage} from './AuthCodeInput/AuthCodeInputPage';
-
+import { DataTablePage } from './Table/';
 export {
     TabPage,
     ProgressbarPage,
@@ -15,5 +15,6 @@ export {
     HolyGrailComponent,
     AccordionPage,
     ContactFormComponent,
-    AuthCodeInputPage
+    AuthCodeInputPage,
+    DataTablePage
 };
